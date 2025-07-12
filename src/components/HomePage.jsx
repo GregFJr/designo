@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+
 function HomePage() {
     return(
-        <div>
-            <h1>GETTing Started</h1>
+        <div className='homeWrapper' >
+            <section className='hero'>
+                fart
+            </section>
         </div>
     )
 }

@@ -1,0 +1,12 @@
+.homeWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+   background-color: red;
+   background-image: url('../assets/home/desktop/bg-pattern-hero-home.svg');
+   border-radius: 10px;
+   width: 100%;
+   height: auto;
+}
