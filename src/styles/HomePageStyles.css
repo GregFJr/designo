@@ -4,9 +4,47 @@
 }
 
 .hero {
-   background-color: red;
+    display: flex;
+   background-color: #e78168;
    background-image: url('../assets/home/desktop/bg-pattern-hero-home.svg');
+   background-repeat: no-repeat;
+   background-position: right;
    border-radius: 10px;
+   text-align: center;
    width: 100%;
-   height: auto;
+   max-height: 640px;
 }
+
+.banner-msg p {
+    font-size: 48px;
+    font-family: "Jost";
+    font-weight: 500px;
+    line-height: 48px;
+    text-wrap:pretty;
+    color: #ffffff;
+    width: fit-content;
+    text-align: left;
+}
+
+.banner-msg p:nth-of-type(even) {
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.banner-img, .banner-msg {
+    height: 100%;
+    width: 100%;
+}
+
+.banner-img {
+    background-image: url('../assets/home/desktop/image-hero-phone.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.banner-msg {
+    padding: 85px 80px 100px 80px;
+}
+
+
