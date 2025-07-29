@@ -13,12 +13,12 @@ function HomePage() {
             experiences. Find out more about our services.
           </p>
         </div>
-        <div className="banner-img">
-        </div>
+        <div className="banner-img"></div>
       </section>
 
       <section className="home-grid">
-        <div className="wed-design"></div>
+        <div className="web-design"></div>
+
         <div className="app-design"></div>
         <div className="graphic-design"></div>
       </section>
